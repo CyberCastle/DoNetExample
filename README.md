@@ -20,3 +20,5 @@ Este es un ejemplo de como programar en ASP.Net (C#) en estilo Java. Algunas for
 
 .- Utilización de jHipster como herramienta para levantar la interface en Angular JS
 
+El proyecto fué realizado en Visual Studio 2013, utilizando SQL Server 2012 como base de datos. En la carpeta DataBase se encuentra la base para ser importada con SQL Server Manager Studio.
+

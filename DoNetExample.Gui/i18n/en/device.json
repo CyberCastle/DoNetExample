@@ -1,0 +1,22 @@
+{
+    "donetexampleApp": {
+        "device" : {
+            "home": {
+                "title": "Devices",
+                "createLabel": "Create a new Device",
+                "createOrEditLabel": "Create or edit a Device"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Device {{ id }}?"
+            },
+            "detail": {
+                "title": "Device"
+            },
+            "type": "Type",
+            "brand": "Brand",
+            "model": "Model",
+            "serialNumber": "SerialNumber",
+            "Customer_Id": "Customer_Id"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+
+<div>
+    <h2><span translate="donetexampleApp.device.detail.title">Device</span> {{device.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th translate="entity.detail.field">Field</th>
+                    <th translate="entity.detail.value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.device.type">Type</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{device.type}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.device.brand">Brand</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{device.brand}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.device.model">Model</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{device.model}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.device.serialNumber">SerialNumber</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{device.serialNumber}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.device.Customer_Id">Customer_Id</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{device.customer_Id}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            ui-sref="device"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

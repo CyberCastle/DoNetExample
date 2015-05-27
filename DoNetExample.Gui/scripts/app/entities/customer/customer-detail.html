@@ -1,0 +1,70 @@
+
+<div>
+    <h2><span translate="donetexampleApp.customer.detail.title">Customer</span> {{customer.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th translate="entity.detail.field">Field</th>
+                    <th translate="entity.detail.value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.customer.name">Name</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{customer.name}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.customer.email">Email</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{customer.email}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.customer.phone">Phone</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{customer.phone}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.customer.movil">Movil</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{customer.movil}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.customer.birthDate">BirthDate</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{customer.birthDate}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="donetexampleApp.customer.address">Address</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{customer.address}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            ui-sref="customer"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
